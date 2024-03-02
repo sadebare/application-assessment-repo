@@ -23,5 +23,6 @@ WORKDIR /app
 COPY --from=build /app/target/spring-petclinic-2.4.2.war ./app.war
 
 EXPOSE 8080
+
 # Command to run the application
 CMD ["java", "-jar", "app.war"]
