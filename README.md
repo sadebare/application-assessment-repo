@@ -98,3 +98,6 @@
 +   Destroy resources
         
         terraform destroy
+
+###   We can access the application by taking the load balancer url on port 8080
+![image_ec2](./images/ec2_app.png)
